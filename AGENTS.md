@@ -29,6 +29,16 @@ Point of reference for continuing sessions. Read this first, then continue from 
 - All supporting code, data, documents needed to run or understand it.
 - Submit through ITC no later than the scheduled presentation date.
 
+## Scope guidance (from the lecture Q&A, Neural Networks lecture)
+
+- Cover: problem statement, what previous approaches did, proposed solution, main contributions, results.
+- Implementation is encouraged but optional. Implementing only the key novel contribution (or a small piece) is enough; do not implement the whole paper.
+- We do not need to match the paper's numbers. Showing results the authors published (e.g. from their GitHub, if any) is welcome.
+- Improving on the paper is NOT expected for the presentation; that belongs to the project. The presentation is meant to be a starting point for the project.
+- Lecture Q&A does not mention the notebook-as-slides format; that comes from the assignment email, so keep following the five required sections above.
+
+So the minimum viable demo is a Tower of Hanoi simulator and move validator plus a plot of solution length vs number of disks (laptop only). A single small open-model run on Colab is an optional extra. The other three puzzles are not needed.
+
 ## Pending items
 
 - [ ] Get instructor approval for this paper and confirm it is registered on the course sheet (registration deadline was Nov 8, 2026; check status).
@@ -38,7 +48,7 @@ Point of reference for continuing sessions. Read this first, then continue from 
 - [ ] Write the introduction and background.
 - [ ] Write the methodology (puzzle definitions, complexity measures, how answers and reasoning traces are verified).
 - [ ] Reproduce or redraw key figures with attribution.
-- [ ] Implement the demo: puzzle simulators (start with Tower of Hanoi), a move validator, and a small accuracy-vs-complexity experiment with a small open model if feasible on a laptop or Colab.
+- [ ] Implement the minimum demo: Tower of Hanoi simulator, move validator, and a plot of optimal solution length (2^n - 1) vs disks. Optional: a small open-model run on Colab; other puzzles only if time allows.
 - [ ] Write the critical analysis (strengths, limitations such as output-length limits and puzzle representativeness, related work, future directions).
 - [ ] Time a full run-through (target 20 minutes).
 - [ ] Add a `requirements.txt` and confirm the notebook runs end to end from a clean environment.
